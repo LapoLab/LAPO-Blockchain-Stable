@@ -1,8 +1,5 @@
-LAPO Core integration/staging repository
+LAPO Core Stable repository
 =====================================
-
-[![Build Status](https://travis-ci.org/LAPO-Project/LAPO.svg?branch=master)](https://travis-ci.org/LAPO-Project/LAPO) [![GitHub version](https://badge.fury.io/gh/LAPO-Project%2FLAPO.svg)](https://badge.fury.io/gh/LAPO-Project%2FLAPO)
-
 LAPO Coin (LAX) is an open source Swiss Stable Cryptocurrency.
 LAPO Coin is a global currency not tied to a central bank and with a low volatility. That it allows practical usage like paying for things everyday.
 It utilizes a custom Proof of Stake protocol for securing its network and uses an innovative variable seesaw reward mechanism that dynamically balances 90% of its block reward size between masternodes and staking nodes and 10% dedicated for budget proposals.
