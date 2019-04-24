@@ -1,23 +1,33 @@
-LAPO Core integration/staging repository
+LAPO Core Stable repository
 =====================================
 
 [![Build Status](https://travis-ci.org/LAPO-Project/LAPO.svg?branch=master)](https://travis-ci.org/LAPO-Project/LAPO) [![GitHub version](https://badge.fury.io/gh/LAPO-Project%2FLAPO.svg)](https://badge.fury.io/gh/LAPO-Project%2FLAPO)
 
-LAPO Coin (LAX) is an open source Swiss Stable Cryptocurrency.
-LAPO Coin is a global currency not tied to a central bank and with a low volatility. That it allows practical usage like paying for things everyday.
-It utilizes a custom Proof of Stake protocol for securing its network and uses an innovative variable seesaw reward mechanism that dynamically balances 90% of its block reward size between masternodes and staking nodes and 10% dedicated for budget proposals.
-Our completely autonomous Stability Fund can avoid illegal market manipulation. Thanks to his Artificial Intelligence it will be able to analyse the market, social network and historical data and predict or understand, if and when, an illegal manipulation is taking place. Using Seigniorage Shares the Stability Fund will be able to neutralize the threat and stabilize the market.
-- Secure and Privacy focussed transactions using the Coinjoint technology and in the future Zerocoin.
-- Fast transactions featuring guaranteed zero confirmation transactions, we call it _LPCtx_.
-- Stability thanks to our AI, the coin will grow naturally it's value during the years but will avoid illegal manipulation.
-- Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
+LAPO (LAX) is the native token of the LAPO Network Protocol, all the transactions running on the network are expressed in LAX and the cost of the transaction is paid directly in LAX. The services offered in the LAPO ecosystem (ePlatform and eFinance) have a cost expressed in LAX and might require a locked minimal amount of LAX in order to work.
 
-More information at [lapo.io](http://lapo.io) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=2981605)
+### 2 TIER BLOCKCHAIN MODEL
+
+The classic Bitcoin approach is essentially a way to synchronize a distributed system through common transaction logs. It requires that each network node store the full copy of the transaction history. Obviously, this does not scale well, since eventually not every node will be able to store the full history.
+
+LAPO Network Protocol works in a “2 Tier” Model where each tier has a specific function
+
+The First Tier is used by the miner to secure the Blockchain using Lyra2zz Proof-of-Work algorithm until the Q2 2019. After that date the First Tier will work only on Proof-of-Stake mode inherited from PIVX.
+
+The Second Tier is the “Masternode” level: Masternodes are used to process the transactions and the Blockchain. This approach produces the best performance possible using a robust and highly serviceable network in the most critical part of the Blockchain. The Masternode process all the Proof-of-Service algorithm.
+
+### MASTERNODE
+
+Unlike Bitcoin's single-tier network, where all jobs on the network are performed by miners, LAPO Network Protocol utilizes a two-tier network. Certain network functions, such as creating new blocks, are handled by the miners. The second tier of the network consists of "Masternodes" which perform more critical tasks like: Lightning Payment Confirmation and governance functions. Masternodes require 1’000’000 LAX as collateral to prevent sybil attacks. That collateral can be spent or removed at any time, but doing so removes the associated Masternode from the network.
+
+For running a Masternode we recommend: 2GB of RAM, 2GHZ of Processor, 40GB of HD, Ubuntu 18.04 and a dedicated IP.
+
+More information at [lapo.io](http://lapo.io)
 
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Lyra2z</td></tr>
-<tr><td>Block Time</td><td>30 Seconds</td></tr>
+<tr><td>Block Time PoW</td><td>30 Seconds</td></tr>
+<tr><td>Block Time PoS</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>12'628'000'000 LAX</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>87'372'000'000 LAX</td></tr>
