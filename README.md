@@ -26,8 +26,7 @@ More information at [lapo.io](http://lapo.io)
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Lyra2z</td></tr>
-<tr><td>Block Time PoW</td><td>30 Seconds</td></tr>
-<tr><td>Block Time PoS</td><td>60 Seconds</td></tr>
+<tr><td>Block Time</td><td>30 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>12'628'000'000 LAX</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>87'372'000'000 LAX</td></tr>
